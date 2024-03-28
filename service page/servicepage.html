@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Services</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        header {
+        background-color: #fff;
+        padding: 1em;
+        width: 100%;
+        text-align: justify;
+        }
+        header img {
+            max-height: 60px;
+        }
+
+        body {
+           background-image: url(desktop-wallpaper-vivid-green-wheat-field-dusk-vivid-green-wheat-field-dusk-stock-agricultural-land-thumbnail.jpg) !important;
+          
+        }
+        header button{
+            display: block;
+            padding: 10px 30px;
+            text-decoration: none;
+            background-color: #3f9437;
+            color: #fff;
+            border: 1px solid #3f9437;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin: 5px auto;
+            margin-top: 0;
+            
+
+        }
+
+        header h1 {
+            text-align: center;
+            margin: 10px  !important;
+            color: #0e0d0d;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 0;
+        }
+
+        .main {
+            width: 30%;
+            min-height: 350px;
+            text-align: center;
+            position: relative;
+            cursor: pointer;
+            margin: 20px 0;
+            padding: 0;
+        }
+
+        .service {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            box-shadow: 0 0 20px -15px #030580;
+            transition: transform .8s;
+        }
+
+        .service-logo {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            margin: -90px auto 0;
+            background: #fff;
+            border: 18px solid #3f9437;
+        }
+
+        .service-logo img {
+            width: 50px;
+            margin-top: 20px;
+            transition: transform 1s;
+        }
+
+        .service p {
+            height: 35px;
+            width: 80%;
+            background: #ffffff;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .service p::after {
+            content: '';
+            width: 40px;
+            height: 30px;
+            background: linear-gradient(to right, #fff, #3f9437);
+            position: absolute;
+            right: -5px;
+            top: -5px;
+            z-index: -1;
+        }
+
+        .service p::before {
+            content: '';
+            width: 40px;
+            height: 30px;
+            background: linear-gradient(to right, #3f9437, #fff);
+            position: absolute;
+            left: -5px;
+            bottom: -5px;
+            z-index: -1;
+        }
+
+        .shadowOne {
+            height: 200px;
+            width: 80%;
+            background: #3f9437;
+            position: absolute;
+            border-radius: 10px;
+            bottom: 0;
+            left: 10%;
+            z-index: -1;
+            box-shadow: 0 0 20px -15px #030380;
+            transition: transform .8s;
+        }
+
+        .shadowTwo {
+            height: 200px;
+            width: 64%;
+            background: #3f9437;
+            position: absolute;
+            border-radius: 10px;
+            bottom: 0;
+            left: 18%;
+            z-index: -2;
+        }
+
+        .main:hover .service {
+            transform: translateY(-50px);
+        }
+
+        .main:hover .shadowOne {
+            transform: translateY(-25px);
+        }
+
+        .main:hover .img {
+            transform: rotate(360deg);
+        }
+        footer {
+      background-color: #fff;
+      color: #080808;
+      text-align: center;
+      padding: 1em;
+      bottom: 0;
+      width: 100%;
+    }
+        
+
+    </style>
+</head>
+<body>
+
+    <header>
+    <img src="WhatsApp Image 2023-12-08 at 23.42.40_761e6bfc.jpg" alt="Logo Description">
+
+    <button onclick="document.location=''">Back</button>
+
+    <h1> WE PROVIDE </h1>
+</header>
+    <div class="container">
+        <div class="main">
+            <div class="service">
+                <div class="service-logo"> <img src="1149483.png"></div>
+                <p>Creating employment opportunities.</p>
+            </div>
+            <div class="shadowOne"></div>
+            <div class="shadowTwo"></div>
+        </div>
+
+        <div class="main">
+            <div class="service">
+                <div class="service-logo"> <img src="download.png"></div>
+                <p>Making a traditional  farmer into an  agricultural  entrepreneur. </p>
+            </div>
+            <div class="shadowOne"></div>
+            <div class="shadowTwo"></div>
+        </div>
+
+        <div class="main">
+            <div class="service">
+                <div class="service-logo"> <img src="depositphotos_75872107-stock-illustration-recycling-symbol-white-on-green.jpg"></div>
+                <p>Purchasing the  excess supply and  Fixing a fair market  price.  </p>
+            </div>
+            <div class="shadowOne"></div>
+            <div class="shadowTwo"></div>
+        </div>
+        
+        <div class="main">
+            <div class="service">
+                <div class="service-logo"> <img src="images.png"></div>
+                <p>Introducing  techniques and  methodologies to  increase the quantity  of the cultivated  crops..   </p>
+            </div>
+            <div class="shadowOne"></div>
+            <div class="shadowTwo"></div>
+        </div>
+
+        <div class="main">
+            <div class="service">
+                <div class="service-logo"> <img src="download (2).png"></div>
+                <p>Introducing a  commercial economy  instead of self-  sufficient economy.</p>
+            </div>
+            <div class="shadowOne"></div>
+            <div class="shadowTwo"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 DORAMADALAWA Uto FARM VILLAGE (PVT) LTD</p>
+      </footer>
+
+</body>
+</html>
